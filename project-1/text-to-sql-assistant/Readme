@@ -1,0 +1,20 @@
+This is a sample text to SQL Assistant App. This helps the user to trigger the prompt which will return schema specific query to generate
+and also finally return the output in the UI. Thus generally uses below techstack.
+
+OpenAI, llm, python, mysql, streamlit
+
+How to run this program
+=======================
+1) import the Project to ur IDE
+2) Set the Virtual environment usig below command
+    python -m venv myenv
+
+3)Activate the virutal environment using the below command
+  .\myenv\Scripts\activate forwindows machine
+
+4) Next install all the required libraries from requirement.txt file using the below command.
+   pip install -r .\requirements.txt
+5) Next run the application using the below command
+   streamlit run app.py
+
+There is one file main.py which also u can run but that will show the result in console. run it as a simple python file.
