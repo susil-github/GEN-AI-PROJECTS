@@ -1,0 +1,20 @@
+This is a sample chat Assistant App. This helps the user to trigger the prompt which will return the result with maintained history,
+previously when we issue any prompt then we used to get the answer of current question.It never reminds the history. So to maintain history of previous chats this app uses response ID.
+
+OpenAI, llm, python, 
+
+How to run this program
+=======================
+1) import the Project to ur IDE
+2) Set the Virtual environment usig below command
+    python -m venv myenv
+
+3)Activate the virutal environment using the below command
+  .\myenv\Scripts\activate forwindows machine
+
+4) Next install all the required libraries from requirement.txt file using the below command.
+   pip install -r .\requirements.txt
+5) Next run the application using the below command
+   python main.py
+
+when we gives exit it will come out of the loop and never asks the question.

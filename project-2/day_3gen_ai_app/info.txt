@@ -1,0 +1,5 @@
+This GenAi App is responsible to creating chat assistant with keeping the history in memory.
+Normally when we create the chat assistant it never keeps the state means its stateless.
+but to keep the history and maintain we can use either use list or maintain response ID.
+To maintain the history in a list everytime it goes to the server and consumes more token.
+So to save the token and not to burn more token we can leverage the response ID of OpenAI API to maintain history.
